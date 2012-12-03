@@ -2207,7 +2207,9 @@ the specific language governing permissions and limitations under the Apache Lic
             if (searchWidth < 40) {
                 searchWidth = maxWidth - sideBorderPadding;
             }
-            this.search.width(searchWidth);
+
+            //this.search.width(searchWidth);
+            this.search.width('100%');
         },
 
         // multi
